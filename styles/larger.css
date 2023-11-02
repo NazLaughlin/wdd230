@@ -1,0 +1,26 @@
+@media (min-width: 640px) {
+    nav{
+        max-width: none;
+    }
+    
+	nav ul {
+		display: flex;
+	}
+    
+	nav ul li {
+		flex: 1 1 100%;
+	}
+
+    main {
+        grid-template-columns: auto auto;
+    }
+    
+    .card{
+        grid-row: 2/3;
+        grid-column: auto;
+        border: 2px solid #e7e7e7;
+        border-radius: 4px;
+        padding: .5rem;
+        margin: 10px;
+    }
+}
