@@ -1,0 +1,23 @@
+body{
+    background-color: #F7DBA7;
+    color: #523F38;
+}
+
+ul{
+    background-color: #037971;
+    color: #C2BBF0;
+}
+
+h1{
+    color: #C2BBF0;
+    background-color: #0E79B2;
+}
+
+img{
+    border: 5px solid #037971;
+}
+
+/* Pine Green: #037971
+Honolulu Blue: #0E79B2
+Periwinkle: #C2BBF0
+*/
