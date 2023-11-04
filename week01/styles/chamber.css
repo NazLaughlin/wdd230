@@ -13,8 +13,17 @@ h1{
     background-color: #0E79B2;
 }
 
+h1, h2, .libre{
+    font-family: 'Libre+Baskerville';
+}
+
+p{
+    font-family: 'Cabin';
+}
+
 img{
     border: 5px solid #037971;
+    display: inline-block;
 }
 
 /* Pine Green: #037971
