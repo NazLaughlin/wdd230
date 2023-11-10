@@ -23,6 +23,7 @@ header h1{
 nav {
 	background-color: #36454f;
 	max-width: 800px;
+    list-style: none;
 }
 
 nav ul {
@@ -40,11 +41,37 @@ nav a {
 	text-decoration: none;
 }
 
+.navigation{
+    display:none
+}
+
+.navigation.open {
+    display:flex;
+    flex-direction: column;
+}
+
 nav a:hover {
 	border: 1px solid #fff;
 }
 
-.active {
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "Close";
+}
+
+.open li {
+	display: block;
+	width: 100%;
+}
+
+.open li a {
+	display: block;
+}
+
+.active::before {
 	color: yellow;
 }
   
