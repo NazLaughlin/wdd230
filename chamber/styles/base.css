@@ -1,0 +1,110 @@
+body{
+    background-color: #F7DBA7;
+    color: #523F38;
+}
+
+header {
+    padding: 2rem;
+    text-align: center;
+    display:grid;
+    grid-template-columns: auto 10% 30% auto;
+}
+
+header img{
+    grid-column: 2/3;
+}
+
+header h1{
+    grid-column: 3/4;
+    padding-top: 2rem;
+}
+
+nav {
+	max-width: 700px;
+	margin: auto;
+}
+
+/* small view navigation */
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #037971;
+	color: #C2BBF0;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "Close";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #0E79B2;
+	color: #C2BBF0;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation li a {
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #C2BBF0;
+}
+
+.navigation li a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
+}
+
+.active::before {
+	content: "> ";
+}
+  
+main {
+    height: 100%;   
+    margin: auto;
+    width: 80%; 
+    padding: 1rem;
+    font-family: 'Source Code Pro';
+    display:grid;
+    grid-template-columns: auto;
+}
+
+.card{
+    grid-column: 1/2;
+    border: 2px solid #0E79B2;
+    border-radius: 4px;
+    padding: .5rem;
+}
+  
+footer {
+    padding: 10px;
+    text-align: center;
+}
+
+section ul li{
+    list-style: none;
+}
+
+#lastModified{
+    color: #037971;
+}

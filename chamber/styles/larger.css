@@ -1,0 +1,34 @@
+@media (min-width: 640px) {
+    nav{
+        max-width: 100%;
+        background-color: red;
+    }
+    
+    .navigation{
+        flex-direction: row;
+    }
+    
+    .navigation li{
+        display:block;
+        flex: 1 1 100%;
+    }
+
+    #menu{
+        display:none;
+    }
+
+    main {
+        grid-template-columns: auto auto;
+    }
+    
+    .card{
+        grid-column: auto;
+        border-radius: 4px;
+        padding: .5rem;
+        margin: 10px;
+    }
+
+    #news{
+        grid-row: 1/2
+    }
+}
