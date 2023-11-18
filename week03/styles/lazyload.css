@@ -1,0 +1,11 @@
+main{
+    display: block;
+}
+
+img{
+    display: block;
+}
+
+#lastModified{
+    color:red;
+}

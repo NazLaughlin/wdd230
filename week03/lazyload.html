@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load</title>
+    <link rel="stylesheet" href="./styles/lazyload.css">
+    <link rel="icon" href="/images/favicon.ico">
+    <meta name="author" content="Nazanal Laughlin">
+    <meta name="description" content="Demo of Lazy Loading">
+</head>
+
+<body>
+    <header>
+        <h1>Lazy Loading</h1>
+    </header>
+    <main>
+        <img src="//via.placeholder.com/400x600/" alt="image placeholder" loading="lazy">
+        <img src="//via.placeholder.com/400x600/" alt="image placeholder" loading="lazy">
+        <img src="//via.placeholder.com/400x600/" alt="image placeholder" loading="lazy">
+        <img src="//via.placeholder.com/400x600/" alt="image placeholder" loading="lazy">
+        <img src="//via.placeholder.com/400x600/" alt="image placeholder" loading="lazy">
+        <img src="//via.placeholder.com/400x600/" alt="image placeholder" loading="lazy">
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> Nazanal Laughlin</p>
+        <p id="lastModified">will be populated by JS later</p>
+    </footer>
+    <script src="./scripts/getDates.js"></script>
+</body>
+</html>
