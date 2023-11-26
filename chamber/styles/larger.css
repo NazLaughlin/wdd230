@@ -28,6 +28,21 @@
         margin: 10px;
     }
 
+    .sidebar{
+        grid-column: 1/2;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+
+    .discover{
+        grid-column: 2/3;
+    }
+
+    .discover img:hover{
+        box-shadow: 0 0 50px #333;
+    }
+
     #news{
         grid-row: 1/2
     }
