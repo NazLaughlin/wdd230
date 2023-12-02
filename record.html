@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nazanal Laughlin - WDD 230 - Web Frontend Development</title>
+        <meta name="author" content="Nazanal Laughlin">
+        <meta name="description" content="
+        WDD 230 - Web Frontend Development
+        Nazanal Laughlin
+        course assignment portal
+        student project
+        web design course">
+        <meta property="og:title" content="Nazanal Laughlin - WDD 230 - Web Frontend Development">
+        <meta property="og:type" content="Website">
+        <meta property="og:url" content="https://https://nazlaughlin.github.io/wdd230/">
+        <meta property="og:image" content="https://https://nazlaughlin.github.io/wdd230/images/city-hall.jpg">
+        <link rel="icon" href="/images/favicon.ico">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro">
+        <link rel="stylesheet" href="./styles/base.css">
+        <link rel="stylesheet" href="./styles/larger.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="./images/profile.png" alt="Headshot photo of Nazanal Laughlin" loading="lazy"> 
+            <h1>
+                Nazanal Laughlin
+            </h1>
+            <div id="mode">Darkness</div>
+        </header>
+
+        <nav>
+            <button id="menu" aria-label="Expand Navigation"></button>
+            <ul class="navigation">
+                <li><a href="./index.html" class="active">Home</a></li>
+                <li><a href="./chamber/index.html">Chamber</a></li>
+                <li><a href="#">Site Plan</a></li>
+                <li><a href="./form.html">Form</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Thank you for submitting your form!</h2>
+        </main>
+
+        <footer>
+            <p>&copy;<span id="year"></span> Nazanal Laughlin Texas</p>
+            <p id="lastModified">will be populated by JS later</p>
+        </footer>
+        <script src="./scripts/getDates.js"></script>
+        <script src="./scripts/hamburger.js"></script>
+        <script src="./scripts/darkMode.js"></script>
+        <script src="./scripts/visitCount.js"></script>
+    </body>
+</html>

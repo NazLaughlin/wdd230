@@ -1,4 +1,15 @@
 @media (min-width: 640px) {
+    :root {
+        --back: #037971;
+        --back2: lightgrey;
+        --foredark: black;
+        --forelight: white;
+        --border: darkgrey;
+        --borderlight: grey;
+        --shadow: grey;
+        --zebra: hsl(0, 0%, 93%, 1);
+    }
+
     nav{
         max-width: 100%;
         background-color: red;
@@ -45,5 +56,66 @@
 
     #news{
         grid-row: 1/2
+    }
+
+    form label.sbs{
+        padding: .4rem 0;
+    }
+
+    form{
+        grid-column: 1/2;
+    }
+
+    table{
+        grid-column: 2/3;
+        display: grid;
+    }
+    
+    body {
+        font-family: "EB Garamond", Arial, serif;
+    }
+    
+    table {
+        margin: 10px auto;
+        height: fit-content;
+    }
+    
+    .empty{
+        background-color: var(--back);
+    }
+    
+    caption {
+        padding: 10px;
+        caption-side:bottom;
+        color: var(--back);
+        font-size: .85rem;
+    }
+    
+    tr:first-child th, .highlight {
+        background-color: var(--back);
+        color: var(--forelight);
+    }
+    
+    th{
+        padding: 7px 15px;
+        border-right: 1px solid var(--borderlight);
+    }
+    
+    td{
+        padding: 7px 15px;
+        border: 1px solid var(--borderlight)
+    }
+    
+    th {
+        background-color: var(--back2);
+        font-size: larger;
+    }
+    
+    td {
+        text-align: center;
+    }
+    
+    tbody tr:nth-child(odd) {
+        background-color: var(--zebra);
     }
 }

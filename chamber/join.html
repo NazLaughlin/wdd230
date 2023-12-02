@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seymour Chamber of Commerce</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/larger.css">
+    <link rel="icon" href="./images/favicon.ico">
+    <meta name="author" content="Nazanal Laughlin">
+    <meta name="description" content="Seymour Chamber of Commerce">
+    <meta property="og:title" content="Nazanal Laughlin - WDD 230 - Seymour Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://https://nazlaughlin.github.io/wdd230/chamber/index.html">
+    <meta property="og:image" content="https://https://nazlaughlin.github.io/wdd230/images/city-hall.jpg">
+</head>
+
+<body>
+    <header>
+        <img src="./images/placeholder-hero.png" alt="Placeholder Hero Image">
+        <h1>Seymour Chamber of Commerce</h1>
+    </header>
+
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="join.html" class="active">Join</a></li>
+            <li><a href="#">Placeholder</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="thankyou.html" method="get">
+            <label class="top">First Name*<input type="text" name="fname" id="fname" required></label>
+            <label class="top">Last Name*<input type="text" name="lname" id="lname" required></label>
+            <label class="top">Title <input type="text" name="title" id="title" pattern="[a-zA-Z0-9\- ]{7,}"></label>
+            <label class="top">Email* <input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
+            <label class="top">Phone* <input type="tel" name="phone" id="phone" placeholder="1235551234" required></label>
+            <label class="top">Business Name* <input type="text" name="business" id="business" required></label>
+            
+            <div>Membership Level</div>
+            <label class="sbs"><input type="radio" name="membership" value="NP"> NonProfit Membership</label>
+            <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+            <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+            <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+
+            <label class="top">Description <textarea name="description" id="description"></textarea></label>
+            <input type="hidden" name="timestamp" id="timestamp">
+
+            <input type="submit" value="Join the Chamber!" class="submitBtn">
+        </form>
+
+        <table>
+            <caption>Table 1: Membership Feature Comparison</caption>
+            <thead>
+                <tr>
+                    <th colspan="5">Chamber of Commerce Memberships</th>
+                </tr>
+                <tr>
+                    <th scope="col" class="empty"></th>
+                    <th scope="col">NP</th>
+                    <th scope="col">Bronze</th>
+                    <th scope="col">Silver</th>
+                    <th scope="col">Gold</th>
+                </tr>
+                <tr>
+                    <td>Listed on Chamber Site</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Priority Event Scheduling</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Purchase Ad space at events</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Donation Partner</td>
+                    <td>✔️</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                </tr>
+            </thead>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="year"></span> Nazanal Laughlin - Project for University Cource WDD 230</p>
+        <p id="lastModified">Last Modified Here - will be populated by JS later</p>
+    </footer>
+    <script src="./scripts/menu.js"></script>
+    <script src="./scripts/getDates.js"></script>
+</body>
+</html>
