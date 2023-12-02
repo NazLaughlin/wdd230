@@ -1,6 +1,6 @@
 @media (min-width: 640px) {
     nav{
-        max-width: none;
+        max-width: 100%;
     }
     
 	nav ul {
@@ -10,6 +10,11 @@
 	nav ul li {
 		flex: 1 1 100%;
 	}
+
+    .navigation{
+        display:flex;
+        flex-direction: row;
+    }
 
     #menu{
         display:none;
