@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="icon" href=" IconRef ">
+    <meta name="author" content="Nazanal Laughlin">
+    <meta name="description" content=" Description ">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/larger.css">
+    <link rel="stylesheet" href="/styles/form.css">
+</head>
+
+<body>
+    <header>
+        <img src="./images/profile.png" alt="Headshot photo of Nazanal Laughlin" loading="lazy"> 
+        <h1>
+            Nazanal Laughlin
+        </h1>
+        <div id="mode">Darkness</div>
+    </header>
+
+    <nav>
+        <button id="menu" aria-label="Expand Navigation"></button>
+        <ul class="navigation">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="get" method="record.html">
+            <label class="top">Username* <input type="text" id="username" name="username" required></label>
+            <label class="top">Password* <input type="password" id="password" name="password" required pattern="[A-Za-z0-9]{8,}" ></label>
+            <label class="top">Confirm Password* <input type="password" id="confirmPassword" name="confirmPassword" required pattern="[A-Za-z0-9]{8,}" ></label>
+            <label class="top">Email* <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu"></label>
+            <label class="top">Page Rating <div id="rangevalue">1</div> <input type="range" id="r" name="rating" min="1" max="10" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            </label>
+            <input type="submit" value="Sign Me Up" id="submitBtn">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="year"></span> Nazanal Laughlin Texas</p>
+        <p id="lastModified">will be populated by JS later</p>
+    </footer>
+    <script src="./scripts/getDates.js"></script>
+    <script src="./scripts/form.js"></script>
+</body>
+</html>
