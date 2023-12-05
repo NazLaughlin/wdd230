@@ -1,0 +1,22 @@
+{
+    "Families": [
+        {
+            "Name": "Johnson",
+            "MoveDate": 1200,
+            "MemberCount": 2,
+            "Visited": true,
+            "Members": [
+                {
+                    "Name": "Dad",
+                    "Gender": "X",
+                    "Birthdate": 20000
+                },
+                {
+                    "Name": "Mom",
+                    "Gender": "X",
+                    "Birthdate": 21000
+                }
+            ]
+        }
+    ]
+}
