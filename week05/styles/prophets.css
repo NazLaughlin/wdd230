@@ -1,0 +1,25 @@
+h1, h2{
+    color: blue;
+}
+
+h2{
+    text-align: center;
+}
+
+main{
+    background-color: lightgray;
+    box-shadow: 0 0 3rem black;
+}
+
+img{
+    box-shadow: 0 0 1rem black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.card{
+    padding: 10px;
+}
