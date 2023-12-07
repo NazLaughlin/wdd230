@@ -1,0 +1,103 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url":"/week01/holygrail.html",
+                    "title":"Holy Grail Layout Activity"
+                },
+                {
+                    "url":"/week01/media-query.html",
+                    "title":"Media Query Activity"
+                },
+                {
+                    "url":"/week01/chamber-site-plan.html",
+                    "title":"Chamber Site Plan"
+                }
+            ]
+        },
+        {
+            "week":"Week 2",
+            "links":[
+                {
+                    "url":"/week02/design.html",
+                    "title":"Design Activity"
+                },
+                {
+                    "url":"https://codepen.io/NazLaughlin/pen/WNPjaKP",
+                    "title":"Responsive Menu Activity"
+                },
+                {
+                    "url":"/week02/bom.html",
+                    "title":"DOM Manipulation Activity"
+                }
+            ]
+        },
+        {
+            "week":"Week 03",
+            "links":[
+                {
+                    "url":"/images/landscape.webp",
+                    "title":"WebP Activity"
+                },
+                {
+                    "url":"/week03/lazyload.html",
+                    "title":"Lazy Loading Activity"
+                },
+                {
+                    "url":"/week03/responsive-images.html",
+                    "title":"Responsive Images Activity"
+                },
+                {
+                    "url":"/week03/bom.html",
+                    "title":"Local Storage Activity"
+                }
+            ]
+        },
+        {
+            "week":"Week 04",
+            "links":[
+                {
+                    "url":"https://codepen.io/NazLaughlin/pen/OJdBYNN",
+                    "title":"CSS Psuedo Classes Activity"
+                },
+                {
+                    "url":"/images/Combinator-Proof.jpg",
+                    "title":"Combinator Activity Proof"
+                },
+                {
+                    "url":"/week04/tablebuild.html",
+                    "title":"HTML Table Activity"
+                },
+                {
+                    "url":"/week04/forms/index/html",
+                    "title":"Forms Activity"
+                }
+            ]
+        },
+        {
+            "week":"Week 05",
+            "links":[
+                {
+                    "url":"https://codepen.io/NazLaughlin/pen/OJdrojB",
+                    "title":"Psuedo Elements"
+                },
+                {
+                    "url":"/week05/new-ward-members.json",
+                    "title":"JSON Activity"
+                },
+                {
+                    "url":"/week05/prophets.html",
+                    "title":"Fetch Prophets Activity"
+                },
+                {
+                    "url":"/week05/weather.html",
+                    "title":"Weather API Activity"
+                }
+                
+            ]
+        }
+    ]
+
+}
