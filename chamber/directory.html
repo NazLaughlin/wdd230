@@ -28,12 +28,19 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="join.html">Join</a></li>
-            <li><a href="directory.html">Directory</a></li>
+            <li><a href="directory.html" class="active">Directory</a></li>
         </ul>
     </nav>
 
     <main>
-        <h2>Thank you for submitting your application! We will process it and contact you shortly.</h2>
+        <h1>Chamber of Commerce Associated Businesses</h1>
+        <div class="layout">
+            <label><input type="radio" name="layout" id="grid" value="Grid" checked> Grid </label>
+            <label><input type="radio" name="layout" id="list" value="List"> List </label>
+        </div>
+        <article class="grid">
+
+        </article>
     </main>
 
     <footer>
@@ -42,5 +49,6 @@
     </footer>
     <script src="./scripts/menu.js"></script>
     <script src="./scripts/getDates.js"></script>
+    <script src="./scripts/members.js"></script>
 </body>
 </html>

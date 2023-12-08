@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name":"Chicken Express",
+            "address":"212 E Saffron st",
+            "phone":"940-781-1111",
+            "url":"www.chickene.com",
+            "image":"./images/chicken.webp",
+            "membership":"Gold"
+        },
+        {
+            "name":"Dollar General",
+            "address":"918 W Main",
+            "phone":"940-781-1112",
+            "url":"www.dollargeneral.com",
+            "image":"./images/dg.webp",
+            "membership":"Silver"
+        },
+        {
+            "name":"Feed and Seed Barn",
+            "address":"396 W Arbor St",
+            "phone":"940-781-1113",
+            "url":"www.google.com/search?q=feed+and+seed+barn+seymour",
+            "image":"./images/feed.webp",
+            "membership":"Bronze"
+        },
+        {
+            "name":"HH Inn",
+            "address":"200 Main",
+            "phone":"940-781-1114",
+            "url":"www.google.com/search?q=HH+Inn+Seymour",
+            "image":"./images/hh.webp",
+            "membership":"Silver"
+        },
+        {
+            "name":"Horizons Salon",
+            "address":"400 Main",
+            "phone":"940-781-1114",
+            "url":"www.google.com/search?q=Horizons+Salon+Seymour",
+            "image":"./images/horizons.webp",
+            "membership":"Gold"
+        },
+        {
+            "name":"Baylor Publishing",
+            "address":"817 S Washington",
+            "phone":"940-781-1115",
+            "url":"www.google.com/search?q=Baylor+Publishing+Seymour",
+            "image":"./images/publishing.webp",
+            "membership":"Gold"
+        },
+        {
+            "name":"Mechanic Mark's",
+            "address":"200 S Washington",
+            "phone":"940-781-1116",
+            "url":"www.google.com/search?q=Okay+you+got+me+this+place+doesnt+exist",
+            "image":"",
+            "membership":"Silver"
+        }
+    ]
+}
