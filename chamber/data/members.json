@@ -5,7 +5,7 @@
             "address":"212 E Saffron st",
             "phone":"940-781-1111",
             "url":"www.chickene.com",
-            "image":"./images/chicken.webp",
+            "image":"./images/discover/chicken.webp",
             "membership":"Gold"
         },
         {
@@ -13,7 +13,7 @@
             "address":"918 W Main",
             "phone":"940-781-1112",
             "url":"www.dollargeneral.com",
-            "image":"./images/dg.webp",
+            "image":"./images/discover/dg.webp",
             "membership":"Silver"
         },
         {
@@ -21,7 +21,7 @@
             "address":"396 W Arbor St",
             "phone":"940-781-1113",
             "url":"www.google.com/search?q=feed+and+seed+barn+seymour",
-            "image":"./images/feed.webp",
+            "image":"./images/discover/feed.webp",
             "membership":"Bronze"
         },
         {
@@ -29,7 +29,7 @@
             "address":"200 Main",
             "phone":"940-781-1114",
             "url":"www.google.com/search?q=HH+Inn+Seymour",
-            "image":"./images/hh.webp",
+            "image":"./images/discover/hh.webp",
             "membership":"Silver"
         },
         {
@@ -37,7 +37,7 @@
             "address":"400 Main",
             "phone":"940-781-1114",
             "url":"www.google.com/search?q=Horizons+Salon+Seymour",
-            "image":"./images/horizons.webp",
+            "image":"./images/discover/horizons.webp",
             "membership":"Gold"
         },
         {
@@ -45,7 +45,7 @@
             "address":"817 S Washington",
             "phone":"940-781-1115",
             "url":"www.google.com/search?q=Baylor+Publishing+Seymour",
-            "image":"./images/publishing.webp",
+            "image":"./images/discover/publishing.webp",
             "membership":"Gold"
         },
         {

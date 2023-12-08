@@ -19,7 +19,18 @@ async function getMembers(){
 
 async function displayMembers(members){
     members.forEach(member => {
+        const memberSection = document.createElement("section")
+        const pic = document.createElement("img")
+        pic.src = member.image
+        pic.alt = `Picture of ${member.name} storefront`
         
+        const title = document.createElement("h3")
+        title.textContent = member.name
+        title.classList.add("c1");
+
+        const address = document.createElement("p")
+        address.textContent = member.address;
+        address.classList.add("c2")
     });
 }
 
