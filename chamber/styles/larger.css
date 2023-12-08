@@ -1,4 +1,4 @@
-@media (min-width: 640px) {
+@media (min-width: 950px) {
     :root {
         --back: #037971;
         --back2: lightgrey;
@@ -117,5 +117,14 @@
     
     tbody tr:nth-child(odd) {
         background-color: var(--zebra);
+    }
+
+    .list section{
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr 1fr 1fr 1fr;
+    }
+
+    .list section img{
+        display: flex;
     }
 }
