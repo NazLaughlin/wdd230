@@ -101,6 +101,7 @@ main {
     border: 2px solid var(--menu-color);
     border-radius: 4px;
     padding: .5rem;
+    margin: 1rem;
 }
 
 .sideCard{

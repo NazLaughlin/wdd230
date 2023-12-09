@@ -49,11 +49,11 @@
             "membership":"Gold"
         },
         {
-            "name":"Mechanic Mark's",
+            "name":"Seymour Quick Lube",
             "address":"200 S Washington",
             "phone":"940-781-1116",
-            "url":"www.google.com/search?q=Okay+you+got+me+this+place+doesnt+exist",
-            "image":"",
+            "url":"www.google.com/search?q=Seymour+Quick+Lube",
+            "image":"./images/discover/ql.webp",
             "membership":"Silver"
         }
     ]

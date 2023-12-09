@@ -38,14 +38,13 @@
             <p>Things are happening that you definately want to know about, including that one thing that happened, that we can't believe!</p>
         </div>
         <div class="card" id="callToAction">
-            <button id="Join">Join the chamber now! Do it Now! NOW! JOIN! DO IT!</button>
+            <a href="./join.html"><button id="Join">Local Business Owner? We'd love to have you! Join Here!</button></a>
         </div>
+        <div class="card" id="spotlight"></div>
         <div class="card" id="stats">
-            <p id="temp">Temperature: </p>
-            <p>Other things...</p>
-        </div>
-        <div class="card" id="spotlight">
-            <p>There's this one store you CANT miss! I swear! Its physically impossible! If you try, your neck turns involuntarily and forces you to look at it! Your eyes forced open! Staring, unblinking, until you acknowledge mentally that it's there! Horrifying!</p>
+            <h1>Weather</h1>
+            <p>The current temperature is: <span id="temp"></span>&deg;F</p>
+            <p>The weather is currently: <span id="weather-desc"></span><img src="./images/favicon.ico" alt="" id="weather-icon"></p>
         </div>
     </main>
 
@@ -55,5 +54,7 @@
     </footer>
     <script src="./scripts/menu.js"></script>
     <script src="./scripts/getDates.js"></script>
+    <script src="./scripts/weather.js"></script>
+    <script src="./scripts/spotlight.js"></script>
 </body>
 </html>
