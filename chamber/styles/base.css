@@ -299,3 +299,11 @@ h4{
 .temp-high{
     color: tomato;
 }
+
+#news > * {
+    margin: 2px;
+}
+
+#news > h2 {
+    margin-top: 15px;
+}
