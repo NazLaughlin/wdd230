@@ -256,3 +256,46 @@ table{
 section{
     background-color: var(--menu-color);
 }
+
+#spotlight > *{
+    margin: 0px;
+}
+
+#spotlight > p, #spotlight > a > img{
+    margin-bottom: 20px;
+}
+
+#forecast{
+    display:flex;
+    flex-direction: row;
+    background-color: #037971;
+    padding: 5px;
+}
+
+h4{
+    background-color: #037971;
+    color: #523F38;
+    border: solid 1px #222;
+}
+
+.weather-card{
+    color: #C2BBF0;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    border: solid 3px black;
+}
+
+.weather-card:nth-child(1){
+    margin-left: 20px;
+}
+
+.weather-card > *{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.temp-high{
+    color: tomato;
+}

@@ -38,13 +38,20 @@
             <p>Things are happening that you definately want to know about, including that one thing that happened, that we can't believe!</p>
         </div>
         <div class="card" id="callToAction">
-            <a href="./join.html"><button id="Join">Local Business Owner? We'd love to have you! Join Here!</button></a>
+            <button id="Join">Local Business Owner? We'd love to have you! Join Here!</button>
         </div>
-        <div class="card" id="spotlight"></div>
+        <div class="card" id="spotlight">
+            <h1>Member Spotlight:</h1>
+            <p>Click on their picture to learn more about them!</p>
+        </div>
         <div class="card" id="stats">
             <h1>Weather</h1>
             <p>The current temperature is: <span id="temp"></span>&deg;F</p>
             <p>The weather is currently: <span id="weather-desc"></span><img src="./images/favicon.ico" alt="" id="weather-icon"></p>
+            <h4>3 Day Temperature Forecast:
+                <div id="forecast"></div>
+            </h4>
+            
         </div>
     </main>
 
@@ -56,5 +63,6 @@
     <script src="./scripts/getDates.js"></script>
     <script src="./scripts/weather.js"></script>
     <script src="./scripts/spotlight.js"></script>
+    <script src="./scripts/join.js"></script>
 </body>
 </html>

@@ -7,8 +7,23 @@ async function getMembers(){
         const response = await fetch(linksURL);
         if(response.ok){
             const data = await response.json();
-            const rand = Math.floor(Math.random() * data.members.length)
+            const spotlightEligible = data.members.filter((member) => member.membership != "Bronze");
+            const rand = Math.floor(Math.random() * spotlightEligible.length)
+            const a = Math.floor(Math.random() * 2);
+            const b = Math.floor(Math.random() * 2);
+            const randUp = rand + (a > 0 ? a : 1);
+            const randDown = rand - (b > 0 ? b : 1);
+            if(randUp > spotlightEligible.length){
+                randUp = randUp - spotlightEligible.length;
+            }
+
+            if(randDown < 0){
+                randDown = randDown + spotlightEligible.length;
+            }
+
             displaySpotlight(data.members[rand]);
+            displaySpotlight(data.members[randUp]);
+            displaySpotlight(data.members[randDown]);
         } else {
             throw Error(await response.text);
         }
@@ -18,9 +33,6 @@ async function getMembers(){
 }
 
 function displaySpotlight(member){
-    const title = document.createElement("h1");
-    title.textContent = "Member Spotlight:";
-
     const name = document.createElement("h2");
     name.textContent = member.name;
 
@@ -31,7 +43,6 @@ function displaySpotlight(member){
     pic.src = member.image;
     pic.alt = `Picture of ${member.name} storefront`;
 
-    spotlight.append(title);
     spotlight.append(name);
     anchor.append(pic);
     spotlight.append(anchor);
